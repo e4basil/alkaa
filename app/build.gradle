@@ -70,7 +70,6 @@ dependencies {
     implementation Deps.compose.activity
     implementation Deps.android.playCore
     implementation Deps.koin.android
-    implementation Deps.timber
 
     androidTestImplementation project(":libraries:test")
     androidTestImplementation Deps.koin.test
